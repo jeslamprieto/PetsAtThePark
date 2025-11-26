@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PETS AT THE PARK</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="hola"> 
+
+        <header id="inicio">
+            <h1>PETS AT THE PARK <br> Diversión y cuidado para cada pata</h1>
+            <img src="logo.png" alt="Logo Pets at the Park" width="100">       
+        </header>
+
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <section id="servicios">
+            <h1>Conócenos</h1>
+             <img src="Imagenes/Conocenos.jpeg" alt="Logo Pets at the Park" width="500">
+                 
+
+            <p>
+                En Pets at the Park creemos que cada mascota merece atención, diversión y cariño en cada momento del día. <br>
+                Nuestro equipo está formado por amantes de los animales con experiencia en cuidado, paseo y bienestar canino y felino.<br>
+                Ofrecemos un ambiente seguro y alegre donde tu compañero podrá socializar, ejercitarse y recibir el cuidado que necesita.<br><br>
+                Sabemos lo importante que es tu mascota para ti, por eso trabajamos con compromiso y responsabilidad,<br>
+                brindándote tranquilidad mientras cumples con tus actividades diarias.
+            </p>
+
+            <h1>Listado de Servicios</h1>
+            <table>
+                <tr>
+                    <th>Servicio</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Duración</th>
+                </tr>
+                <tr>
+                    <td>Paseo individual</td>
+                    <td>Caminata personalizada para tu mascota</td>
+                    <td>$15.000</td>
+                    <td>60 min</td>
+                </tr>
+                <tr>
+                    <td>Baño y cepillado</td>
+                    <td>Limpieza y cuidado del pelaje</td>
+                    <td>$25.000</td>
+                    <td>45 min</td>
+                </tr>
+                <tr>
+                    <td>Guardería diaria</td>
+                    <td>Cuidado completo durante el día</td>
+                    <td>$50.000</td>
+                    <td>8 horas</td>
+                </tr>
+            </table>
+        </section>
+
+        <aside>
+            <h1>Promociones</h1>
+            <p>Primera caminata gratis para nuevos clientes</p>
+
+            <h1 style="text-align: center;">Formulario de Solicitud de Servicios</h1>
+            <form action="#" method="POST">
+                <table>
+                    <tr>
+                        <th colspan="2">Formulario de Solicitud</th>
+                    </tr>
+                    <tr>
+                        <td><label for="nombre">Nombre Completo:</label></td>
+                        <td><input type="text" id="nombre" name="nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="correo">Correo Electrónico:</label></td>
+                        <td><input type="email" id="correo" name="correo" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nombre_mascota">Nombre de tu mascota:</label></td>
+                        <td><input type="text" id="nombre_mascota" name="nombre_mascota" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tipo:</td>
+                        <td>
+                            <input type="radio" id="perro" name="tipo" value="Perro" required>
+                            <label for="perro">Perro</label>
+                            <input type="radio" id="gato" name="tipo" value="Gato">
+                            <label for="gato">Gato</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Género:</td>
+                        <td>
+                            <input type="radio" id="masculino" name="genero" value="Masculino" required>
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" id="femenino" name="genero" value="Femenino">
+                            <label for="femenino">Femenino</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="servicio_solicitado">Servicio solicitado:</label></td>
+                        <td>
+                            <select id="servicio_solicitado" name="servicio_solicitado" required>
+                                <option value="">Selecciona el Servicio</option>
+                                <option value="Paseo individual">Paseo individual</option>
+                                <option value="Baño y cepillado">Baño y cepillado</option>
+                                <option value="Guardería diaria">Guardería diaria</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fecha_servicio">Fecha para el servicio:</label></td>
+                        <td><input type="date" id="fecha_servicio" name="fecha_servicio" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="comentarios">Comentarios para tener en cuenta:</label></td>
+                        <td><textarea id="comentarios" name="comentarios" rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button class="btn-registrar" type="submit">Registrar solicitud</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <h1>Síguenos</h1>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://instagram.com">Instagram</a>
+        </aside>
+
+        <footer id="contacto">
+            <p>Autor: Jeslam Prieto</p>
+            <p>Año: 2025</p>
+            <p>Correo: jeslam_prieto2567@americana.edu.co</p>
+            <p>&copy; Todos los derechos reservados</p>
+        </footer>
+
+    </div>
+</body>
+</html>
